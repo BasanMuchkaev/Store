@@ -41,6 +41,7 @@ const TrackPage = () => {
             </Grid>
             <div>
                 {track.comments.map(comment => 
+                    // eslint-disable-next-line react/jsx-key
                     <div>
                         <div>Автор - {comment.username}</div>
                         <div>Комментарий - {comment.text}</div>
