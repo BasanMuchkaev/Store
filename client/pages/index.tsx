@@ -29,4 +29,6 @@ const Index = () => {
         </>
     )
 }
+
+//хзхзхзхз
 export default Index
