@@ -1,5 +1,5 @@
 import { Box, Grid } from "../node_modules/@mui/material/index";
-import { ITrack } from "../types.tsx/track";
+import { ITrack } from "../types/track";
 import TrackItem from "./TrackItem";
 
 

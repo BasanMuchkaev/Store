@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Grid, IconButton } from '../node_modules/@mui/material/index';
-import { ITrack } from '../types.tsx/track'
+import { ITrack } from '../types/track'
 import styles from '../styles/TrackItem.module.scss'
 import { AutoAwesome, Delete, Pause, PlayArrow } from '../node_modules/@mui/icons-material/index';
 import { useRouter } from '../node_modules/next/router';

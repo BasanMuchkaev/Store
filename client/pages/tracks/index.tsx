@@ -3,7 +3,7 @@ import TrackList from '../../components/TrackList'
 import MainLayout from '../../layouts/MainLayout'
 import { Box, Button, Card, Grid } from '../../node_modules/@mui/material/index'
 import { useRouter } from '../../node_modules/next/router'
-import { ITrack } from '../../types.tsx/track'
+import { ITrack } from '../../types/track'
 
 const Index = () => {
     const router = useRouter()
