@@ -7,3 +7,4 @@ import { createWrapper } from '../node_modules/next-redux-wrapper/es6/index';
 const makeStore: MakeStore<RootState> = (context: Context) => createStore(rootReducer)
 // export an assembled wrapper
 export const wrapper = createWrapper<RootState>(makeStore, {debug: true});
+
