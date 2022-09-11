@@ -2,7 +2,7 @@ import React from 'react';
 import MainLayout from '../../layouts/MainLayout';
 import { Button, Grid, TextField } from '../../node_modules/@mui/material/index';
 import { Router, useRouter } from '../../node_modules/next/router';
-import { ITrack } from '../../types.tsx/track';
+import { ITrack } from '../../types/track';
 
 const TrackPage = () => {
     const router = useRouter()
